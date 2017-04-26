@@ -1,6 +1,6 @@
 # npmdoc-requestretry
 
-#### api documentation for  [requestretry (v1.12.0)](https://github.com/FGRibreau/node-request-retry#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-requestretry.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-requestretry) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-requestretry.svg)](https://travis-ci.org/npmdoc/node-npmdoc-requestretry)
+#### basic api documentation for  [requestretry (v1.12.0)](https://github.com/FGRibreau/node-request-retry#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-requestretry.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-requestretry) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-requestretry.svg)](https://travis-ci.org/npmdoc/node-npmdoc-requestretry)
 
 #### request-retry wrap nodejs request to retry http(s) requests in case of error
 
@@ -94,7 +94,8 @@
         "test-watch": "mocha -t 100000 -R min -w $(find test -name '*.test.js')",
         "update": "updtr"
     },
-    "version": "1.12.0"
+    "version": "1.12.0",
+    "bin": {}
 }
 ```
 
